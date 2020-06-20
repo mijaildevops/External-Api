@@ -22,7 +22,7 @@ form.addEventListener('submit', function(event){
     formData.append('Code', Code);
   
 
-    fetch('http://192.168.100.51:5080/Login', {
+    fetch('http://100.97.218.207:5080/Login', {
     method: 'POST',
     body: formData
     })
